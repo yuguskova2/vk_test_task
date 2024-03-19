@@ -5,11 +5,11 @@
 Запросы:
 1. Чтобы создать пользователя, выполните POST запрос users/create с json данными name и balance.
 Например: http://localhost/vk_test_task/users/create
-JSON: {"name":"Ann", "balance": "0.00"}
-2. Чтобы создать задание, выполните POST запрос users/create с json данными name и balance.
+(JSON: {"name":"Ann", "balance": "0.00"})
+3. Чтобы создать задание, выполните POST запрос users/create с json данными name и balance.
 Например: http://localhost/vk_test_task/quests/create 
-JSON: {"name":"Quest 17", "cost": "100.00"}
-3. Чтобы засчитать пользователю задание, выполните POST запрос users/set_complete с данными user_id и quest_id.
+(JSON: {"name":"Quest 17", "cost": "100.00"})
+4. Чтобы засчитать пользователю задание, выполните POST запрос users/set_complete с данными user_id и quest_id.
 Например: http://localhost/vk_test_task/users/set_complete?user_id=8&quest_id=16 
-4. Чтобы получить историю выполненных заданий пользователя и его баланс,  выполните GET запрос users/get_history с данными user_id.
+5. Чтобы получить историю выполненных заданий пользователя и его баланс,  выполните GET запрос users/get_history с данными user_id.
 Например: http://localhost/vk_test_task/users/get_history?user_id=8 
